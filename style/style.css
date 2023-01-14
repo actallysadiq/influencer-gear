@@ -129,5 +129,31 @@ nav ul{
     color: rgb(108, 108, 108);
  }
 
+ /* media  */
+ @media only screen and (max-width:576px) {
+    .section, .section-2{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+.sec2-div p,.sec2-div h2{
+    
+    padding: 30px;
+}
+.btn-2{
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+nav,nav ul, .logo ul{
+    flex-direction: column;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+ }
+
     
 
